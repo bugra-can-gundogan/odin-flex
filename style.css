@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container, .flex-container-column{
+    display: flex;
+}
+
+.flex-container-column{
+    flex-direction: column;
+}
+
+.flex-container, .flex-container-column *{
+    flex: 1;
+}
+
+
+.header{
+    align-items: center;
+    padding: 2% 12%;
+}
+
+.header h1{
+    text-align: start;
+    flex: 2;
+}
+
+.header .flex-container{
+    text-align: center;
+    justify-content: space-evenly;
+    gap:10px;
+    flex: 1;
+}
+
+.banner{
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding: 2% 12%;
+}
+
+.banner .flex-container-column{
+    justify-content: space-around;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.banner img{
+    height: 200px;
+}
+
+.image-subtext-container{
+    justify-content: space-around;
+}
+
+.main-content{
+    padding: 2% 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .image-subtext-container{
+    justify-content: center;
+    gap: 15px;
+    padding: 3% 10%;
+}
+
+.image-subtext-container .flex-container-column{
+    align-items: center;
+    text-align: center;
+}
+
+.main-content-img{
+    width: 200px;
+}
+
+.slogan{
+    padding: 3% 25%;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.slogan_owner{
+    align-self: flex-end;
+}
+
+.sign-up-container{
+    padding: 5% 5%;
+}
+
+.sign-up-container .flex-container{
+    padding: 3% 10%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+
+.sign-up-container .flex-container .flex-container-column{
+    justify-content: center;
+    flex: 5;
+}
+
+.sign-up-container h2{
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 2;
+    margin: 0;
+}
+
+.sign-up-container h6{
+    font-size: 16px;
+    color: #F9FAF8;
+    flex: 1;
+    margin: 0;
+}
+
+.sign-up-button-bottom{
+    width: 80px;
+    flex: 1;
+}
+
+.footer{
+    padding: 2% 5%;
+    text-align: center;
+    color: #E5E7EB;
+}
+
+.dark-background{
+    background-color: #1f2937;
+}
+
+.website-is-awesome{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo-text{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.sign-up-button-bottom, .sign-up-button-top{
+    padding: 7px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.sign-up-button-bottom{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+}
+.sign-up-button-top{
+    color: #F9FAF8;
+    background-color: #3882f6;
+}
+
+.blue-background{
+    background-color: #3882f6;
+}
+
+.random{
+    color: #1f2937;;
+}
+
+.white-text{
+    color: #F9FAF8;
+}
